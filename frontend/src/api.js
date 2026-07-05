@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Change this if your backend runs somewhere other than the default
 // `uvicorn app.main:app --reload` address.
-export const API_BASE_URL = "http://127.0.0.1:8000";
+export const API_BASE_URL = "https://platelabel-ai.onrender.com/";
 
 /**
  * Sends the image to the backend's /analyze endpoint.
